@@ -22,7 +22,7 @@
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">login</a></li>
+                    <li><a method="get" href="{{ route('login') }}">login</a></li>
                 </ul>
             </div>
             <div class="darkLight-searchBox">
